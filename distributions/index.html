@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="./res/fav.svg" type="image/svg+xml" sizes="any">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="./css/uikit.min.css"/>
+    <link href="./css/main.css" rel="stylesheet">
+    <title>TravelMapTool</title>
+</head>
+<body>
+    <div id="container" class="map-content"></div>
+    <div class="main-content uk-container-expand" id="rootui"></div>
+    <script src="TravelMapTool.js"></script>
+    <script type="text/javascript">
+        window._AMapSecurityConfig = {
+             securityJsCode:'9512e20d03596f718cfa28dc3f226fd7',
+        }
+    </script>
+    <script type="text/javascript" src="https://webapi.amap.com/maps?v=2.0&key=ebdd0964ab49e4dbd8185e76cb2b530b&plugin=AMap.CustomLayer,AMap.RangingTool,AMap.PlaceSearch"></script>
+    <script type="text/javascript" src="https:////webapi.amap.com/ui/1.1/main.js"></script>
+    <!-- UIkit JS -->
+    <script src="./js/uikit.min.js"></script>
+    <script src="./js/uikit-icons.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/jscolor.min.js"></script>
+</body>
+</html>
